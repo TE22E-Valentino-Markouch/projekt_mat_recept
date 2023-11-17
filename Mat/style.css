@@ -12,6 +12,7 @@ header {
   grid-row-start: 1;
   grid-row-end: 2;
   background-color: gray;
+  text-align: center;
 }
 footer {
   grid-column-start: 1;
@@ -19,6 +20,7 @@ footer {
   grid-row-start: 4;
   grid-row-end: 5;
   background-color: gray;
+  text-align: center;  
 }
 #instruktioner {
   /* width: 650px;
@@ -64,4 +66,17 @@ footer {
 
 #rubrik {
   font-family: "Agbalumo";
+}
+
+#instagramLogo {
+  width: 4%;
+
+}
+
+#footer_text {
+  
+}
+
+nav {
+  
 }
