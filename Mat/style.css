@@ -27,16 +27,6 @@ h2 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-
-
-footer {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  background-color: gray;
-  text-align: center;  
-}
 main {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -56,7 +46,7 @@ aside {
   margin-bottom: 10%;
 }
 
-.flex-container {
+.flex-container1 {
   display: flex;
   flex-direction: column;
   grid-column-start: 3;
@@ -65,17 +55,38 @@ aside {
   grid-row-end: 4;
 } 
 
-.flex-container > img {
+.flex-container1 > img {
   margin: 30px;
   border-style: solid;
   border-color: gray;
   border-width: 10px;
 }
 
+footer {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: gray; 
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 #instagramLogo {
   width: 4%;
+  margin-left: 5%;
 }
 
 #footer_text {
-  
+  font-size: 32px;
+}
+
+#email {
+  margin-left: 1%;
+  font-size: 32px;
 }
