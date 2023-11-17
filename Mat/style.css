@@ -14,17 +14,38 @@ header {
   grid-row-start: 1;
   grid-row-end: 2;
   background-color: gray;
-  font-family: "Agbalumo";
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 250%;
+  font-family: "Agbalumo";
+  margin-right: -10%;
 }
 
 header > img  {
   width: 13%; 
 }
 
-h2 {
-  font-family: 'Times New Roman', Times, serif;
+.login {
+  font-size: 200%;
+  transition: 0.3s;
+  margin-right: -30%;
+
+}
+
+.login:hover {
+  transform: scale(110%);
+}
+
+.sign_up {
+  font-size: 200%;
+  transition: 0.3s;
+}
+
+.sign_up:hover {
+  transform: scale(110%);
 }
 
 main {
@@ -83,10 +104,27 @@ footer {
 }
 
 #footer_text {
-  font-size: 32px;
+  font-size: 200%;
 }
 
-#email {
+.email {
   margin-left: 1%;
-  font-size: 32px;
+  font-size: 200%;
+  transition: 0.3s;
 }
+
+.email:hover {
+  transform: scale(110%); 
+}
+
+a.Instagram_länk {
+  font-size: 200%;
+  transition: all 0.3s;
+  margin: 1%;
+}
+
+a.Instagram_länk:hover {
+  transform: scale(110%);
+
+}
+
