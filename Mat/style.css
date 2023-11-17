@@ -7,14 +7,28 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
   background-color: gray;
-  text-align: center;
   font-family: "Agbalumo";
+  align-items: center;
+  justify-content: space-between
 }
+
+header > img  {
+  width: 13%; 
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
 footer {
   grid-column-start: 1;
   grid-column-end: 5;
