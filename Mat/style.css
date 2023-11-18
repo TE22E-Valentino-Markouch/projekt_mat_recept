@@ -16,10 +16,13 @@ header {
   background-color: gray;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 h1 {
-  font-size: 250%;
+  font-size: 300%;
   font-family: "Agbalumo";
   flex: 2;
   text-align: center;
@@ -36,7 +39,7 @@ header > img  {
   transition: 0.3s;
   margin-right: 1%;
 
-}
+} 
 
 .login:hover {
   transform: scale(110%);
@@ -60,7 +63,21 @@ main {
   background: gray;
   margin-top: 10%;
   margin-bottom: 10%;
+  border: 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
+
+.instruktion-rubrik {
+  text-align: center;
+  font-size: 250%;
+  font-family: "Agbalumo";
+}
+
+.instruktion-lista {
+  font-size: 150%;
+}
+
 aside {
   grid-column-start: 4;
   grid-column-end: 5;
@@ -69,7 +86,22 @@ aside {
   background: gray;
   margin-top: 10%;
   margin-bottom: 10%;
+  border-bottom: 2px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
+
+
+.ingrediens-rubrik {
+  text-align: center;
+  font-size: 250%;
+  font-family: "Agbalumo";
+}
+
+.ingrediens-lista {
+  font-size: 150%;
+}
+
 
 .flex-container1 {
   display: flex;
@@ -78,6 +110,8 @@ aside {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 4;
+  border: 2px;
+  border-radius: 5px;
 } 
 
 .flex-container1 > img {
@@ -85,6 +119,7 @@ aside {
   border-style: solid;
   border-color: gray;
   border-width: 10px;
+  border-radius: 5px;
 }
 
 footer {
@@ -93,6 +128,9 @@ footer {
   grid-row-start: 4;
   grid-row-end: 5;
   background-color: gray; 
+  border-bottom: 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .flex-container2 {
@@ -107,7 +145,7 @@ footer {
   margin-left: 5%;
 }
 
-#footer_text {
+#footer-text {
   font-size: 200%;
 }
 
